@@ -7,6 +7,9 @@ body{
     display: inline-block;
     padding: 5px;
     font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    color: turquoise;
+    text-shadow: white 2px;
 }
 .right-nav{
     float: right;
