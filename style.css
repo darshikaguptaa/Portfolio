@@ -16,7 +16,7 @@ body{
     padding: 10px 15px;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
-    color: rgb(175, 173, 173);
+    color: aqua;
 }
 .right-nav{
     float: right;
@@ -48,6 +48,7 @@ body{
      position: relative;
     top: 100px;
     left: 20px; 
+    color: aqua;
 }
 .text h1{
     
@@ -114,13 +115,54 @@ body{
     width: auto;
     height: 760px; 
 }
-.skills h1{
+#skill{
     text-align: center;
     position: relative;
-    top: 90px;
+    top: 40px;
     font-family: 'Acme', sans-serif;
     font-size: 100px;
     color: aqua;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 40px;
+    justify-items: center;
+}
+.html, .css, .c{
+    position: relative;
+    top: 40px;
+    padding: 30px;
+    border: 10px aqua solid;
+    border-radius: 20px;
+    width: 200px;
+}
+.boxes img{
+    height: 200px;
+    width: auto;
+    position: relative;
+    left: 30px;
+}
+.boxes a{
+    position: relative;
+    left: 50px;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    color: aqua;
+    text-decoration: none;
+}
+.boxes a:hover{
+    position: relative;
+    top: -10px;
+    right: 5px;
+}
+.html{
+    position: relative;
+    left: 40px;
+}
+.c{
+    position: relative;
+    right: 40px;
 }
     
    
