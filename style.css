@@ -112,7 +112,15 @@ body{
 }
 .skills{
     width: auto;
-    height: 760px; ;
+    height: 760px; 
+}
+.skills h1{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-family: 'Acme', sans-serif;
+    font-size: 100px;
+    color: aqua;
 }
     
    
