@@ -10,6 +10,11 @@ body{
     background-color: black;
     color: white;
 }
+/* nav{
+    z-index: 10000;
+  position: sticky;
+  top: 20px;
+} */
 .left-nav, .right-nav{
     list-style-type: none;
     display: inline-block;
@@ -21,8 +26,6 @@ body{
 .right-nav{
     float: right;
     padding: 15px;
-    position: relative;
-    right: 50px;
 }
 #name{
     font-weight: bolder;
@@ -163,6 +166,80 @@ body{
 .c{
     position: relative;
     right: 40px;
+}
+.contact{
+    background-color: white;
+    color: black;
+    width:100%;
+    height: 700px;
+}
+form{
+    position: relative;
+    left: 18%;
+    top: 20%;
+}
+form h1{
+    font-family: 'Roboto', sans-serif;
+    color: darkslategrey;
+    font-size: 40px;
+}
+input{
+    padding: 0px 10px;
+    width: 200px;
+    height: 30px;
+    border: solid black 2px;
+}
+input::placeholder{
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+}
+.details{
+    position: relative;
+    left: 55%;
+    top: -35%;
+}
+#get{
+    position: relative;
+    left: 35%;
+    top: 15%;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+    color: darkslategrey;
+}
+.details h1,h2{
+    font-family: 'Nunito', sans-serif;
+}
+label{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+.details h1:first-child{
+    position: relative;
+    left: 4%;
+    font-family: 'Roboto', sans-serif;
+    color: darkslategrey;
+    font-size: 40px;
+}
+footer{
+    background-color: white;
+    color: black;
+    position: relative;
+    top: -20%;
+    height: 100px;
+}
+footer img{
+    height: 60px;
+    width: auto;
+    float: right;
+    padding: 20px;
+}
+footer p{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
 }
     
    

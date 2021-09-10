@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Charm&family=Courgette&family=Ubuntu:ital,wght@1,300&family=Merriweather:ital,wght@1,700&family=Nunito:wght@600&family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm&family=Courgette&family=Ubuntu:ital,wght@1,300&family=Merriweather:ital,wght@1,700&family=Nunito:wght@600&family=Acme&family=Roboto:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Hey! I'm Darshika</title>
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li class="left-nav" id="name"><a href="">Darshika Gupta</a></li>
-            <li class="right-nav"><a href="">Contact</a></li>
+            <li class="left-nav" id="name"><a href="#welcome">Darshika Gupta</a></li>
+            <li class="right-nav"><a href="#contact">Contact</a></li>
             <li class="right-nav"><a href="#skills">Skills</a></li>
             <li class="right-nav"><a href="#about">About Me</a></li>
         </ul>
     </nav>
-    <div class="welcome">
+    <div class="welcome" id="welcome">
         <div class="text">
             <h2>&nbsp;&nbsp; Hey! I am Darshika</h2>
             <h1>Welcome to my portfolio</h1>
@@ -59,5 +59,32 @@
         </div>
     </div>
     </div>
+    <div class="contact" id="contact">
+        <h1 id="get">GET IN TOUCH </h1>
+        <form action="">
+            <h1>Contact Me</h1>
+            <label for="names">Name</label><br>
+            <input type="text" id="names" name="name" placeholder="Enter your name" required ><br><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your E-mail id" required><br><br>
+            <label for="message">Your Messsage-</label><br>
+            <input type="text" id="message" name="message" placeholder="Type a message"><br><br><br>
+            <button>Submit</button>
+        </form>
+        <div class="details">
+            <h1> My Details</h1>
+            <h1>My contact Number</h1>
+            <h2>📞999-888-777</h2>
+            <h1>My E-mail Address</h1>
+            <h2>✉dng2804@gmail.com</h2>
+        </div>
+    </div>
+    <footer>
+        <p>Darshika Gupta <br> Frontend Dev
+        </p>
+        <a href=""><img src="Images/insta.jpg" alt=""></a>
+        <a href=""><img src="images/git.png" alt=""></a>
+        <a href=""><img src="images/twitter.png" alt=""></a>
+    </footer>
 </body>
 </html>
