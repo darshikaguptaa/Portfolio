@@ -14,9 +14,11 @@
     <nav class="navbar">
         <ul>
             <li class="left-nav" id="name"><a href="#welcome">Darshika Gupta</a></li>
-            <li class="right-nav"><a href="#contact">Contact</a></li>
-            <li class="right-nav"><a href="#skills">Skills</a></li>
+            <div class="right-navs">
             <li class="right-nav"><a href="#about">About Me</a></li>
+            <li class="right-nav"><a href="#skills">Skills</a></li>
+            <li class="right-nav"><a href="#contact">Contact</a></li>
+        </div>
         </ul>
     </nav>
     <div class="welcome" id="welcome">
@@ -24,8 +26,9 @@
             <h2>&nbsp;&nbsp; Hey! I am Darshika</h2>
             <h1>Welcome to my portfolio</h1>
         </div>
-        <div class="pic"><img src="Images/pic1.png" alt=""></div>
+        <div class="pic" id="pic"><img src="Images/pic1.png" alt=""></div>
     </div>
+    <br><br><br><br><br><br>
     <div class="about" id="about">
         <div class="pic2">
         <img src="images/pic2.jpg" alt="Picture">
@@ -45,17 +48,20 @@
     <div class="skills" id="skills">
         <h1 id="skill">SKILLS</h1>
         <div class="boxes">
-        <div class="html">
+        <div class="html"><a href="https://github.com/darshikaguptaa" target="_blank">
             <img src="Images/html.jpg" alt="">
             <a href="https://github.com/darshikaguptaa" target="_blank">HTML</a>
+        </a>
         </div>
-        <div class="css">
+        <div class="css"><a href="https://github.com/darshikaguptaa" target="_blank"><
             <img src="Images/css.jpeg" alt="">
             <a href="https://github.com/darshikaguptaa" target="_blank">CSS</a>
+        </a>
         </div>
-        <div class="c">
+        <div class="c"><a href="https://github.com/darshikaguptaa" target="_blank">
             <img src="Images/c.jpeg" alt="">
             <a href="https://github.com/darshikaguptaa" target="_blank"> Basic C</a>
+        </a>
         </div>
     </div>
     </div>
@@ -69,7 +75,7 @@
             <input type="email" id="email" name="email" placeholder="Enter your E-mail id" required><br><br>
             <label for="message">Your Messsage-</label><br>
             <input type="text" id="message" name="message" placeholder="Type a message"><br><br><br>
-            <button>Submit</button>
+            <button>SUBMIT</button>
         </form>
         <div class="details">
             <h1> My Details</h1>
@@ -84,7 +90,7 @@
         </p>
         <a href=""><img src="Images/insta.jpg" alt=""></a>
         <a href=""><img src="images/git.png" alt=""></a>
-        <a href=""><img src="images/twitter.png" alt=""></a>
+        <a href=""><img src="images/twitter.png" alt="" id="twitter"></a>
     </footer>
 </body>
 </html>
