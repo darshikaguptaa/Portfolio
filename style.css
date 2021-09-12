@@ -54,6 +54,9 @@ body{
     right: 3px;
     top: -3px;
 }
+.welcome, .about, .skills, .contact{
+    height: 100vh;
+}
 .welcome{
     display: inline-flex;
     position: relative;
@@ -246,8 +249,8 @@ label{
     font-size: 40px;
 }
 footer{
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 246, 246);
     position: relative;
     top: -20%;
     height: 100px;
@@ -257,6 +260,7 @@ footer img{
     width: auto;
     float: right;
     padding: 20px;
+    border-radius: 50%;
 }
 footer p{
     display: inline-block;
@@ -376,6 +380,10 @@ button{
     }
 }
 @media screen and (max-width:770px){
+    .pic{
+        position: relative;
+        left: -50%;
+    }
     .right-nav a{
         font-size: 25px;
         padding: 1px;
@@ -471,5 +479,5 @@ button{
         height: 200px;
     }
 }
-}
+
 
